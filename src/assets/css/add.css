@@ -1,0 +1,92 @@
+.add-form {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(77, 109, 136)  !important;
+    color: #e6e1e1 !important;
+    font-size: 16px;
+    font-weight: 600 !important;
+    
+}
+.add-form:focus {
+    border-color: rgba(115, 145, 172, 0.575) !important;
+}
+.add-form::placeholder {
+    color: #e6e1e1 !important;
+    font-weight: 600;
+}
+
+.resultCard li {
+    list-style: none;
+    text-align: left;
+}
+.resultCard img{
+    width: 150px;
+    height: 220px;
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+    box-shadow: 1px 3px 7px #dbcfcf
+   
+}
+.resultCard img:hover {
+    box-shadow: 2px 3px 12px #7e7d7dc7;
+    transition: 0.4s ease-out;
+}
+.poster-wrapper {
+    background-image: url('../images/no-image.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 220px;
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+    box-shadow: 1px 3px 7px #dbcfcf
+}
+.m-container {
+    text-align: left;
+}
+.m-container  .card {
+    margin-top: 10px;
+}
+.content {
+    padding-left: 20px;
+    position: relative;
+}
+.content h2  {
+font-size: 1.3rem;
+margin-top: 24px;
+}
+.content h3 {
+    font-size: 1.2rem;
+    color: rgb(110, 109, 109);
+}
+.module {
+    margin: 0 0 5px 0;
+    overflow: hidden;
+  }
+  .line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+  }
+  .btn-add-watchlist {
+      position: absolute;
+      bottom: 10px;
+      left: 15px;
+  }
+  .fa-star, .fa-star-half-alt {
+     min-height: 8px;
+      color: rgb(212, 168, 47);
+  }
+  @media screen and (max-width:767px) {
+    .btn-add-watchlist {
+        position: unset;
+        display: block !important;
+    }
+    .resultCard img, .poster-wrapper {
+        float: unset;
+    }
+  }

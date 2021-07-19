@@ -1,11 +1,14 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:hover {
+  color: orange;
+  text-decoration: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

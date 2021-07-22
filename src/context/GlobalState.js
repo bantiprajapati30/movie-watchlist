@@ -11,7 +11,6 @@ const initialState = {
 }
 //useEffect 
 
-
 //create context 
 export const GlobalContext = createContext(initialState);
 

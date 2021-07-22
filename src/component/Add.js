@@ -10,7 +10,7 @@ function Add() {
     const onChange = (e) => {
         e.preventDefault();
         setInput(e.target.value)
-        fetch(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API}&language=en-US&page=1&include_adult=false&query=${e.target.value}`).then((res) => res.json()).then(data => {
+        fetch(`https://api.themoviedb.org/3/search/movie?api_key=50e2429fc4ce5e4d7bf19d34d9893713&language=en-US&page=1&include_adult=false&query=${e.target.value}`).then((res) => res.json()).then(data => {
             console.log(data)
             if (!data.errors) {
                 setResults(data.results)

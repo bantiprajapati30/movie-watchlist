@@ -33,7 +33,7 @@ function Add() {
                 <Row>
                     <Col>
                         {results.length > 0 && (
-                            <Col>
+                            <Col> 
                                 {results.map(movie => (
                                     <ResultCard key={movie.id}
                                         movie={movie}

@@ -5,6 +5,7 @@ import {Watchlist} from './component/Watchlist';
 import Watched from './component/Watched';
 import Add from './component/Add';
 import { GlobalProvider } from './context/GlobalState';
+import Footer from './component/Footer';
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,7 @@ function App() {
         </Router>
 
       </GlobalProvider>
+      <Footer/>
     </div>
   );
 }

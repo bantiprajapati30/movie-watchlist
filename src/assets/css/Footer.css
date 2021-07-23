@@ -1,0 +1,30 @@
+footer {
+    background-color: rgb(19, 51, 99);
+    min-height: 72px;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    bottom: 0px;
+}
+footer h4, footer p {
+    color: #fff;
+    text-align: center;
+}
+footer h4 {
+    margin: 12px 0 0 0;
+}
+footer p {
+    padding-right: 25px;
+}
+.empty {
+    min-height: 85px;
+}
+@media screen and (max-width:767px) {
+    footer h4 {
+        font-size: 1.3rem;
+    }
+    footer p {
+       font-size: 0.9rem;
+    } 
+}

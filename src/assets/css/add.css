@@ -1,6 +1,7 @@
 .add-form-row {
     position: fixed !important;
     top: 48px;
+    left: 0;
     z-index: 99;
 }
 .add-form {
@@ -96,6 +97,7 @@ margin-top: 24px;
         display: block !important;
         margin: auto;
         margin-top: 5px;
+        margin-bottom: 10px;
     }
     .resultCard img, .poster-wrapper {
         float: unset;
@@ -124,4 +126,9 @@ margin-top: 24px;
         width: 200px;
         height: 260px;
     }
+    .line-clamp {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;  
+      }
   }

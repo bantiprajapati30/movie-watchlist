@@ -24,7 +24,7 @@ function Add() {
         <>
             <Container>
                 <Row>
-                    <Col className="ml-1 mr-1 add-form-row">
+                    <Col className="mr-1 add-form-row">
                         <Form.Control
                             className="add-form"
                             type="text"

@@ -67,3 +67,12 @@
         color: rgb(91, 138, 224) !important;
         box-shadow: unset !important;
     }
+@media screen and (max-width:767px) {
+    .movie-Card img, .movie-poster-wrapper {
+        width: 200px;
+        height: 260px;
+    }
+    .movie-Card {
+        margin: auto;
+    }
+}

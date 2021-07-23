@@ -1,13 +1,19 @@
+.add-form-row {
+    position: fixed !important;
+    top: 48px;
+    z-index: 99;
+}
 .add-form {
-    max-width: 300px;
+    max-width: 400px;
     margin: auto;
     margin-top: 30px;
     background-color: rgb(77, 109, 136)  !important;
     color: #e6e1e1 !important;
     font-size: 16px;
     font-weight: 600 !important;
-    
+
 }
+
 .add-form:focus {
     border-color: rgba(115, 145, 172, 0.575) !important;
 }
@@ -48,6 +54,9 @@
 .m-container {
     text-align: left;
 }
+.m-container:first-child {
+    margin-top: 30px;
+}
 .m-container  .card {
     margin-top: 10px;
 }
@@ -85,8 +94,34 @@ margin-top: 24px;
     .btn-add-watchlist {
         position: unset;
         display: block !important;
+        margin: auto;
+        margin-top: 5px;
     }
     .resultCard img, .poster-wrapper {
         float: unset;
+        margin: auto;
+    }
+    .add-form-row {
+        position: fixed;
+        top: 97px;
+        left: 0;
+    }
+    .add-form {
+        max-width: 100%;
+      
+    }
+    .m-container:first-child {
+        margin-top: 75px;
+       
+    }
+    .m-container {
+        text-align: center;
+    }
+    .content h2 {
+        margin-top: 5px;
+    }
+    .resultCard img {
+        width: 200px;
+        height: 260px;
     }
   }

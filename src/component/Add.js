@@ -23,17 +23,22 @@ function Add() {
     return (
         <>
             <Container>
-                <Form.Control
-                    className="add-form"
-                    type="text"
-                    placeholder="Search movie"
-                    value={input}
-                    onChange={onChange}
-                />
+                <Row>
+                    <Col className="ml-1 mr-1 add-form-row">
+                        <Form.Control
+                            className="add-form"
+                            type="text"
+                            placeholder="Search movie"
+                            value={input}
+                            onChange={onChange}
+                        />
+                    </Col>
+                </Row>
+
                 <Row>
                     <Col>
                         {results.length > 0 && (
-                            <Col> 
+                            <Col>
                                 {results.map(movie => (
                                     <ResultCard key={movie.id}
                                         movie={movie}

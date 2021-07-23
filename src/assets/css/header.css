@@ -1,7 +1,11 @@
 .header {
     background-color: rgb(19, 51, 99);
-    min-height: 60px;
+    min-height: 72px;
     align-items: center;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0px;
     
 }
 .brand-name a{

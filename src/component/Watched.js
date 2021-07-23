@@ -18,7 +18,8 @@ function Watched() {
                                 <MovieCard key={index} movie={movie} type="watched"/>
                             ))}
                         </Col>) : (<Col>
-                            <h5>No movie in your list, Please select first</h5>
+                            <h5 className="mt-2 text-danger">No movie in your list, Please select first</h5>
+                            <p className="text-center">🙁🙁🙁</p>
                         </Col>)}
 
                     </Row>

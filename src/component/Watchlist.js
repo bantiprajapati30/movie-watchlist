@@ -18,7 +18,8 @@ export const Watchlist = () => {
                                 <MovieCard key={index} movie={movie} type="watchList"/>
                             ))}
                         </Col>) : (<Col>
-                            <h5>No movie in your list, Please select first</h5>
+                            <h5 className="mt-2 text-danger">No movie in your list, Please select first</h5>
+                            <p className="text-center">🙁🙁🙁</p>
                         </Col>)}
 
                     </Row>

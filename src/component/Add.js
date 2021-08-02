@@ -34,7 +34,6 @@ function Add() {
                         />
                     </Col>
                 </Row>
-
                 <Row>
                     <Col>
                         {results.length > 0 && (

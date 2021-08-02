@@ -4,7 +4,6 @@ import { MovieControl } from './MovieControl';
 function MovieCard({ movie, type }) {
     return (
         <>
-
             <div className="movie-Card">
                 {movie.poster_path ? (
                     <img src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
@@ -14,9 +13,7 @@ function MovieCard({ movie, type }) {
                 </div>)}
                 <MovieControl type={type} movie={movie} />
             </div>
-
         </>
     )
 }
-
 export default MovieCard;

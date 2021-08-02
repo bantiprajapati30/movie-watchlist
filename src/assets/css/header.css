@@ -1,29 +1,7 @@
-.header {
-    background-color: rgb(19, 51, 99);
-    min-height: 72px;
-    align-items: center;
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-    top: 0px;
-    
-}
-.brand-name a{
-    color: #fff;
-    font-weight: 600;
-}
-.nav-btn a {
-    margin-right:10px;
-    color: #fff;
-}
- a:hover {
-    color: rgb(145, 199, 235) !important;
-   
-    transition: 0.4s ease-out;
-    text-decoration: none !important;
-  }
-  @media screen and (max-width:767px) {
-    .header {
-        min-height: 120px;
-    }
+.header {background-color: rgb(19, 51, 99);min-height: 72px;align-items: center;position: fixed;z-index: 100;width: 100%;top: 0px; }
+.brand-name a{color: #fff;font-weight: 600;}
+.nav-btn a {margin-right:10px;color: #fff;}
+ a:hover {color: rgb(145, 199, 235) !important;transition: 0.4s ease-out;text-decoration: none !important;}
+@media screen and (max-width:767px) {
+    .header {min-height: 120px;}
   }

@@ -1,7 +1,7 @@
 import { Row, Col } from "react-bootstrap";
 import '../assets/css/Footer.css'
 const Footer =() => {
-  return <><Row>
+  return <><Row className="empty-row">
       <Col className="empty">
       </Col>
       </Row>

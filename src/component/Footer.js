@@ -10,7 +10,7 @@ const Footer =() => {
             <footer>
                 <div>
                 <h4>Made by Banti Prajapati 💗</h4>
-                 <p>Powered by Systematix Infotech</p>
+                 {/* <p>Powered by Systematix Infotech</p> */}
                 </div>
                  </footer>
             </Col>
